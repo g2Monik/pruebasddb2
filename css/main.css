@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+/* Header */
+header {
+  background-color: #E1E1E1;
+  height: 20vh;
+  position: fixed;
+  width: 100%;
+}
+
+#firstsection {
+  display: inline-block;
+  width: 30%;
+}
+
+#imageuser {
+  border-radius: 50%;
+  display: inline-block;
+  left: 7%;
+  padding: 10px;
+  position: relative;
+  width: 100px;
+}
+
+#logolab {
+  display: inline-block;
+  left: 20%;
+  padding-bottom: 8%;
+  position: relative;
+}
+
+#sections {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  left: 42%;
+  position: absolute;
+  top: 41%;
+  width: 50%;
+}
+
+.menu {
+  color: black;
+  padding: 30px;
+  text-decoration: none;
+}
+
+hr {
+  background-color: #A6ACAF;
+  border: 1px;
+  height: 5px;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+/* Main */
+#container, .statistics, .coaches {
+  background-color: #ECF0F1;
+  height: 110vh;
+  width: 100%;
+}
+
+#container, .location {
+  background-color: white;
+  height: 110vh;
+  width: 100%;
+}
+
+.statistics, .coaches, .location {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  height: 100vh;
+  text-align: center;
+}
+
+#statistics, #coaches, #location {
+  box-sizing: content-box;
+  display: block;
+  padding: 23vh;
+}
+
+#coaches, #location {
+  box-sizing: content-box;
+  display: block;
+}
+
+
+/* Footer */
+footer {
+  background-color: #A6ACAF;
+  display: inline-block;
+  height: 10vh;
+  position: absolute;
+  top: 300vh;
+  width: 100%;
+}
+
+.copy {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  position: relative;
+  top: 35%;
+  text-align: center;
+}
