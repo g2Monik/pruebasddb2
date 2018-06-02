@@ -1,3 +1,5 @@
+//funcionalidad basica del Login
+
 function go(){
 if (document.form.password.value=='CONTRASENA' && document.form.login.value=='USUARIO'){
        alert("Bienvenido");
